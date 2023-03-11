@@ -2,6 +2,8 @@ baseURL = "http://localhost"
 title = "CPEM 55"
 theme = "hugo-geekdoc"
 
+defaultContentLanguage = 'es'
+
 pluralizeListTitles = false
 
 # Geekdoc required configuration

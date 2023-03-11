@@ -1,0 +1,54 @@
+---
+edit_page: Editar página
+
+nav_navigation: Panel de navegación
+nav_tags: Etiquetas
+nav_more: Más
+nav_top: Volver arriba
+
+form_placeholder_search: Buscar
+
+error_page_title: ¿Perdido? No te preocupes
+error_message_title: ¿Perdido?
+error_message_code: Error 404
+error_message_text: >
+  Seems like what you are looking for can't be found. Don't worry, we can
+  bring you back to the <a class="gdoc-error__link" href="{{ . }}">homepage</a>.
+
+button_toggle_dark: Cambiar a modo oscuro/claro/automático
+button_nav_open: Abrir panel de navegación
+button_nav_close: Cerrar panel navegación
+button_menu_open: Abrir menu
+button_menu_close: Cerrar menu
+button_homepage: Volver a la página princial
+
+title_anchor_prefix: "Anchor to:"
+
+posts_read_more: Leer más
+posts_read_time:
+  one: "One minute to read"
+  other: "{{ . }} minutes to read"
+posts_update_prefix: Actualizado hace
+posts_count:
+  one: "One post"
+  other: "{{ . }} posts"
+posts_tagged_with: All posts tagged with '{{ . }}'
+
+footer_build_with: >
+  Construido con <a href="https://gohugo.io/"
+  class="gdoc-footer__link">Hugo</a> y mucho <svg class="gdoc-icon
+  gdoc_heart"><use xlink:href="#gdoc_heart"></use></svg>
+footer_legal_notice: Legal Notice
+footer_privacy_policy: Politica de privacidad
+footer_content_license_prefix: >
+  Contenido licenciado bajo
+
+language_switch_no_tranlation_prefix: "Pagina no traducida:"
+
+propertylist_required: requerido
+propertylist_optional: opcional
+propertylist_default: por defecto
+
+pagination_page_prev: previo
+pagination_page_next: siguiente
+pagination_page_state: "{{ .PageNumber }}/{{ .TotalPages }}"
